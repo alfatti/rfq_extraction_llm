@@ -1,0 +1,16 @@
+# hello_gemma4.ipynb — CUDA box
+# Gemma 4 needs a recent transformers; if the load cell complains about the
+# model type, upgrade transformers first.
+torch>=2.6
+transformers>=5.0
+accelerate>=1.4
+huggingface_hub[hf_xet]>=0.34
+sentencepiece>=0.2
+jupyterlab>=4.2
+ipywidgets>=8.1
+
+# Fine-tuning notebook (next step) — uncomment when you get there
+# peft>=0.15
+# trl>=0.20
+# datasets>=3.0
+# unsloth
